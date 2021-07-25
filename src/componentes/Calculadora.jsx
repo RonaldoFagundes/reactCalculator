@@ -67,6 +67,7 @@ export default function Calculadora() {
                     onChangeText={
                         (valor) => handleInputChange("n1", parseFloat(valor))
                     }
+                    keyboardType="numeric"
                 />
                 <Text style={styles.TextNumber}>Digite um numero!</Text>
                 <TextInput style={styles.InputCalc}
@@ -74,6 +75,7 @@ export default function Calculadora() {
                     onChangeText={
                         (valor) => handleInputChange("n2", parseFloat(valor))
                     }
+                    keyboardType="numeric"
                 />
             </View>
             <View style={styles.ViewCalcFirst} >
