@@ -1,9 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import {View } from 'react-native';
+import Header from './src/componentes/Header';
 import Content from './src/componentes/Content';
 import Footer from './src/componentes/Footer';
-import Header from './src/componentes/Header';
 import { styles } from './styles/style';
 
 
